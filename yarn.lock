@@ -1455,6 +1455,14 @@
   dependencies:
     "@hapi/hoek" "^8.3.0"
 
+"@heroku/buildpack-registry@^1.0.1":
+  version "1.0.1"
+  resolved "https://registry.yarnpkg.com/@heroku/buildpack-registry/-/buildpack-registry-1.0.1.tgz#5d7cc125cff5d984b88edcebc0e9dc0cc579f591"
+  integrity sha512-cbB6ND+unRk692jf1PctcoqnmuyifanTMtFStucXukkpyeI/QgXac5qJNb3g6yhHOObTghJBXi9Uzy1KBcnPgQ==
+  dependencies:
+    node-fetch "^2.2.0"
+    "true-myth" "^2.0.0"
+
 "@jest/console@^24.7.1", "@jest/console@^24.9.0":
   version "24.9.0"
   resolved "https://registry.npmjs.org/@jest/console/-/console-24.9.0.tgz"
@@ -7911,7 +7919,7 @@ node-fetch@2.6.0:
   resolved "https://registry.npmjs.org/node-fetch/-/node-fetch-2.6.0.tgz"
   integrity sha512-8dG4H5ujfvFiqDmVu9fQ5bOHUC15JMjMY/Zumv26oOvvVJjM67KF8koCWIabKQ1GJIa9r2mMZscBq/TbdOcmNA==
 
-node-fetch@2.6.7:
+node-fetch@2.6.7, node-fetch@^2.2.0:
   version "2.6.7"
   resolved "https://registry.npmjs.org/node-fetch/-/node-fetch-2.6.7.tgz"
   integrity sha512-ZjMPFEfVx5j+y2yF35Kzx5sF7kDzxuDj6ziH4FFbOp87zKDZNx8yExJIb05OGF4Nlt9IHFIMBkRl41VdvcNdbQ==
@@ -11757,6 +11765,11 @@ tr46@~0.0.3:
   version "0.0.3"
   resolved "https://registry.npmjs.org/tr46/-/tr46-0.0.3.tgz"
   integrity sha1-gYT9NH2snNwYWZLzpmIuFLnZq2o=
+
+"true-myth@^2.0.0":
+  version "2.2.8"
+  resolved "https://registry.yarnpkg.com/true-myth/-/true-myth-2.2.8.tgz#c3ecbc9eacf260d8d5584b102f8bbd10677d8a24"
+  integrity sha512-ds6rEGLDgVZZId9v+WK0kj7gc7x6LOJ8HVGGDrrWekYdJGCShGeV37z39124zgF73OtmlAqoDDZnDTmygr2D4g==
 
 ts-pnp@1.1.6, ts-pnp@^1.1.6:
   version "1.1.6"
