@@ -2,10 +2,7 @@
   "name": "client",
   "version": "0.1.0",
   "private": true,
-  "engines": {
-    "node":"14.x",
-    "npm":"8.3.1"
-  },
+
   "dependencies": {
     "@ant-design/icons": "4.2.2",
     "@david.kucsai/react-pdf-table": "^0.4.1",

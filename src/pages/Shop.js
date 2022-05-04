@@ -172,7 +172,7 @@ function Shop() {
     subs.map((s) => (
       <Tag
         key={s._id}
-        style={{margin:1, cursor: "pointer" }}
+        style={{ margin: 1, cursor: "pointer" }}
         onClick={() => handleSub(s)}
         color="#2db7f5"
       >
